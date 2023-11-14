@@ -6267,3 +6267,15 @@ body .tribe-bar-views-inner {
 	background-color: #ddd;
 	border-radius: 5px;
   }
+
+  .kingster-page-title-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh; /* Adjust the height as needed */
+}
+
+.kingster-breadcrumbs-container {
+	display: flex;
+	justify-content: center;
+}
