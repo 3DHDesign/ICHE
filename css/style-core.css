@@ -6279,3 +6279,10 @@ body .tribe-bar-views-inner {
 	display: flex;
 	justify-content: center;
 }
+
+@media screen and (min-width: 767px) {
+    .gmImage {
+        display: none;
+		margin-top: -100px;
+    }
+}
