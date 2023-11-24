@@ -12,6 +12,7 @@
     <link rel='stylesheet' href='plugins/revslider/public/assets/css/settings.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/style-core.css' type='text/css' media='all' />
     <link rel='stylesheet' href='css/kingster-style-custom.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700%2C400" rel="stylesheet"
         property="stylesheet" type="text/css" media="all">
@@ -24,6 +25,7 @@
        <script src="./js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
        <script src="./js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
        <script src="./js/jquery.magnific-popup.min.js"></script> <!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+       <script src="./js/gallery.js"></script>
        
        <script>
 
@@ -347,11 +349,12 @@
                     <div class="cd-full-width">
                         <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
                             <div class="tm-img-gallery-container">
+                               
                                 <div class="tm-img-gallery gallery-one">
                                 <!-- Gallery One pop up connected with JS code below -->
                                     <div class="grid-item">
                                         <figure class="effect-sadie">
-                                            <img src="./images/Gallery/1.jpg" alt="Image" class="img-fluid tm-img">
+                                            <img id="1" src="./images/Gallery/1.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
                                              
                                               
@@ -361,7 +364,7 @@
                                     </div>
                                     <div class="grid-item">
                                         <figure class="effect-sadie">
-                                            <img src="./images/Gallery/2.jpg" alt="Image" class="img-fluid tm-img">
+                                            <img id="2"src="./images/Gallery/2.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
                                                
                                                 <a href="./images/Gallery/2.jpg">View more</a>
@@ -370,7 +373,7 @@
                                     </div>
                                     <div class="grid-item">
                                         <figure class="effect-sadie">
-                                            <img src="./images/Gallery/3.jpg" alt="Image" class="img-fluid tm-img">
+                                            <img id="3"src="./images/Gallery/3.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
                                                 
                                                 <a href="./images/Gallery/3.jpg">View more</a>
@@ -379,7 +382,7 @@
                                     </div>
                                     <div class="grid-item">
                                         <figure class="effect-sadie">
-                                            <img src="./images/Gallery/4.jpg" alt="Image" class="img-fluid tm-img">
+                                            <img id="1"src="./images/Gallery/4.jpg" alt="Image" class="img-fluid tm-img">
                                             <figcaption>
                                                
                                                 <a href="./images/Gallery/4.jpg">View more</a>
@@ -496,9 +499,12 @@
                                         
                                     </div>   
                                                                                                         
-                                </div>                    
+                                </div> 
+                                            
                             </div>
-                        </div>                                                      
+                        
+                        </div>     
+                                                                        
                     </div> 
                 </li>
             </ul> <!-- .cd-hero-slider -->

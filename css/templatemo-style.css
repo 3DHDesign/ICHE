@@ -946,3 +946,43 @@ figure.effect-sadie:hover p {
 #cd-slider {
   height: 60vh;
 }
+
+/* gallery 1,2,3 Sections */
+
+@media only screen and (min-width: 374px) and (max-width:413px) {
+  .cd-hero-slider {
+    height:   680vh;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width:500px) {
+  .cd-hero-slider {
+    height: 560vh;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width:500px) {
+  .cd-hero-slider {
+    height: 560vh;
+  }
+}
+
+/* gallery 4 Section */
+
+@media only screen and (min-width: 374px) and (max-width:413px) {
+  #gallerySlider {
+    height:   160vh;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width:500px) {
+  #gallerySlider {
+    height: 125vh;
+  }
+}
+
+@media only screen and (min-width: 390px) and (max-width:500px) {
+  .#gallerySlider {
+    height: 100vh;
+  }
+}
