@@ -4475,3 +4475,15 @@ input[type="submit"].form-control, .icon.spaced.gradient-bg, .btn.gradient, .box
     background-size: cover;
     background-position: center;
 }
+
+
+@media screen and (min-width: 575px;) {
+  .form-control {
+    width: 335px!important;
+  }
+
+
+
+}
+
+ 

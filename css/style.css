@@ -5931,6 +5931,23 @@ body:not(.lg-from-hash)
 }
 
 
+/* test Gallery */
 
+.gallery img {
+  width: 500px;
+  filter: grayscale(100%);
+  transition: 1s;
+  /* Add any other styles you want to apply to images inside the .gallery class here */
+}
 
+.gallery img:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
 
+.pageNmbr {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+ 
+}
