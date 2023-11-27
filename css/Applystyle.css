@@ -1928,7 +1928,10 @@ body::after {
   box-shadow: none;
   border: 1px solid #eee;
   color: #999;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  width:100%;
+}
+  
   .cta-subscribe-2 #form-cta-subscribe-2 input[type="text"]:focus,
   .cta-subscribe-2 #form-cta-subscribe-2 select:focus {
     border-color: #fd2740;
