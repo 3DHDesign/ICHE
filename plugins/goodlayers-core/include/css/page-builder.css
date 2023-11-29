@@ -2377,3 +2377,15 @@ body.ilightbox-noscroll{ overflow: auto; }
 .gdlr-core-widget-box-shortcode .gdlr-core-widget-box-shortcode-icon{ font-size: 21px; color: #4d96e9; margin-right: 20px; float: left; }
 .gdlr-core-widget-box-shortcode .gdlr-core-widget-box-shortcode-content{ overflow: hidden; }
 .gdlr-core-widget-box-shortcode .gdlr-core-widget-box-shortcode-link{ position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; }
+
+
+
+
+/* Course unit images */
+
+.course-unit {
+
+	display: flex !important;
+	padding: padding: 20px;
+  }
+
