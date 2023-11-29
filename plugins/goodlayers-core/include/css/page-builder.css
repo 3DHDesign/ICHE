@@ -2383,9 +2383,4 @@ body.ilightbox-noscroll{ overflow: auto; }
 
 /* Course unit images */
 
-.course-unit {
-
-	display: flex !important;
-	padding: padding: 20px;
-  }
 
